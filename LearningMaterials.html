@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_807939_4py7n51cedr.css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="css/LearningMaterials.css">
+    <title>大数据实验平台 学习资料</title>
+</head>
+<body>
+    <div class="alert">
+        <div class="alertHeader">
+            <div class="alertTitle">资料添加</div>
+            <div class="delete">×</div>
+        </div>
+        <main>
+            <div class="name">
+                <div class="nameLeft"><span>名</span><span>称</span></div>
+                <div class="nameRight">
+                    <input type="text">
+                    <button>上传</button>
+                </div>
+            </div>
+            <div class="introduce">
+                <div class="introduceLeft"><span>介</span><span>绍</span></div>
+                <textarea name="" id="1" cols="30" rows="10"></textarea>
+            </div>
+            <div class="Class">
+                <div class="Classes">
+                    <div class="ClassLeft">一级分类</div>
+                    <select name="" id="2">
+                        <option value="">实验手册</option>
+                        <option value="">材料配套PPT</option>
+                        <option value="">实验视频</option>
+                        <option value="">相关下载</option>
+                    </select>
+                </div>
+                <div class="Classes">
+                    <div class="ClassLeft">二级分类</div>
+                    <select name="" id="3">
+                        <option value="">基本操作</option>
+                        <option value="">基本操作</option>
+                        <option value="">基本操作</option>
+                        <option value="">基本操作</option>
+                    </select>
+                </div>
+                <div class="Classes">
+                    <div class="ClassLeft">三级分类</div>
+                    <select name="" id="4">
+                        <option value="">大数据一体基本</option>
+                        <option value="">大数据一体基本</option>
+                        <option value="">大数据一体基本</option>
+                        <option value="">大数据一体基本</option>
+                    </select>
+                </div>
+            </div>
+            <button>添加</button>
+        </main>
+
+
+    </div>
+    <header>
+        <div class="logo"><img src="img/logo-w.png" alt=""></div>
+        <div class="title">大数据实验平台</div>
+        <div class="portrait"><img src="img/admin.png" alt=""></div>
+        <div class="use">管理员身份</div>
+        <i class="iconfont icon-arrow"></i>
+    </header>
+    <nav>
+        <ul>
+            <li class="click">集群管理</li>
+            <li>学习资料</li>
+            <li>分类管理</li>
+            <li>账户管理</li>
+            <li>资源管理</li>
+            <li>购买记录</li>
+        </ul>
+    </nav>
+    <section>
+        <div class="title">
+            学习资料
+            <div class="tag"></div>
+        </div>
+        <div class="search">
+            <span>名称</span>
+            <input type="search">
+            <button id="button1">搜索</button>
+            <button id="button2">添加</button>
+        </div>
+        <div class="sheet">
+            <table class="table-bordered" style="border-radius: 5px;">
+                <tr style="height: 54px;">
+                    <td>名称</td>
+                    <td>介绍</td>
+                    <td>类型</td>
+                    <td>链接</td>
+                    <td>操作</td>
+                </tr>
+                <tr>
+                    <td>实验一  基本操作实验</td>
+                    <td>熟悉大数据实验一体机并了解如何搭建集群</td>
+                    <td>实验手册</td>
+                    <td><button>下载</button></td>
+                    <td><button class="button4">删除</button><button class="button5">修改</button></td>
+                </tr>
+                <tr>
+                    <td>实验一  基本操作实验</td>
+                    <td>熟悉大数据实验一体机并了解如何搭建集群</td>
+                    <td>实验手册</td>
+                    <td><button>下载</button></td>
+                    <td><button class="button4">删除</button><button class="button5">修改</button></td>
+                </tr>
+                <tr>
+                    <td>实验一  基本操作实验</td>
+                    <td>熟悉大数据实验一体机并了解如何搭建集群</td>
+                    <td>实验手册</td>
+                    <td><button>下载</button></td>
+                    <td><button class="button4">删除</button><button class="button5">修改</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="footer">
+            <div class="before">上一页</div>
+            <ul class="page">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>......</li>
+                <li>9</li>
+                <li>10</li>
+            </ul>
+            <div class="after">下一页</div>
+            <div class="tail">尾页</div>
+        </div>
+    </section>
+</body>
+<script src="js/public.js"></script>
+<script src="js/LearningMaterials.js"></script>
+</html>
