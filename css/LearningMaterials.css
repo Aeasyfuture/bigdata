@@ -161,6 +161,7 @@ section .sheet {
     width: 1098px;
     margin-left: 30px;
     margin-top: 20px;
+    color: rgba(0,0,0,0.4);
 }
 section .button4{
     margin-left: 20px;
@@ -223,7 +224,7 @@ section .footer ul li:nth-child(4){
     font-size: 14px;
     color: #8d8d8d;
 }
-.alert{
+.alert,.alert1{
     width: 394px;
     height: 430px;
     background: #fff;
@@ -238,13 +239,13 @@ section .footer ul li:nth-child(4){
     padding: 0;
     display: none;
 }
-.alert .alertHeader{
+.alertHeader{
     width: 100%;
     height: 46px;
     padding: 20px 0 6px 0;
     border-bottom: 1px solid #f4f4f4;
 }
-.alert .alertHeader .alertTitle{
+.alertHeader .alertTitle{
     width: 65px;
     height: 20px;
     float: left;
@@ -254,7 +255,7 @@ section .footer ul li:nth-child(4){
     font-size: 14px;
     color: rgba(0,0,0,0.8);
 }
-.alert .alertHeader .delete{
+.alertHeader .delete{
     width: 47px;
     height: 20px;
     float: right;
@@ -263,16 +264,16 @@ section .footer ul li:nth-child(4){
     font-size: 14px;
     color: rgba(0,0,0,0.4);
 }
-.alert main{
+main{
     padding: 0 37px 0;
 }
-.alert main .name{
+main .name{
    width: 100%;
     height: 70px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
-.alert main .name .nameLeft,.introduceLeft,.ClassLeft{
+main .name .nameLeft,.introduceLeft,.ClassLeft{
     width: 58px;
     height: 30px;
     font-size: 14px;
@@ -282,7 +283,7 @@ section .footer ul li:nth-child(4){
     justify-content: space-between;
     line-height: 30px;
 }
-.alert main .name .nameRight{
+main .name .nameRight{
     width: 248px;
     height: 70px;
     float: right;
@@ -290,7 +291,7 @@ section .footer ul li:nth-child(4){
     flex-wrap: wrap;
     align-content: space-around;
 }
-.alert main .name .nameRight input,select{
+main .name .nameRight input,select{
     width: 248px;
     height: 30px;
     float: right;
@@ -315,7 +316,7 @@ section .footer ul li:nth-child(4){
     /*//给自定义的图标实现点击下来功能*/
     /*pointer-events: none;*/
 /*}*/
-.alert main .name .nameRight button{
+main .name .nameRight button{
     width: 82px;
     height: 30px;
     border: none;
@@ -324,12 +325,12 @@ section .footer ul li:nth-child(4){
     font-size: 14px;
     color: #fff;
 }
-.alert main .introduce{
+main .introduce{
     width: 100%;
     height: 62px;
     margin-bottom: 15px;
 }
-.alert main .introduce textarea{
+main .introduce textarea{
     width: 248px;
     height: 62px;
     border: 1px solid #f4f4f4;
@@ -340,7 +341,7 @@ section .footer ul li:nth-child(4){
     padding: 5px 0 0 5px;
 }
 
-.alert main .Class{
+main .Class{
     width: 100%;
     height: 117px;
     margin-bottom: 27px;
@@ -348,11 +349,11 @@ section .footer ul li:nth-child(4){
     flex-wrap: wrap;
     align-content: space-around;
 }
-.alert main .Class .Classes{
+main .Class .Classes{
     width: 100%;
     height: 30px;
 }
-.alert main button{
+main button{
     width: 100%;
     height: 29px;
     border: none;

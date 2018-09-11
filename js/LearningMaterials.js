@@ -14,8 +14,9 @@ $(function(){
     let lie5=$("td:nth-child(5)");
     lie5.css("width","224px");
     let hang=$("tr");
-    hang.css("height","63px")
+    hang.css("height","63px");
 
+    // 添加
     $("#button2").click(function(){
         $(".alert").css("display","block");
     })
@@ -23,6 +24,7 @@ $(function(){
         $(".alert").css("display","none");
     })
 
+    // 翻页
     $(".page li:first-child").css("background","#4381e6");
     let next=0;
     function run(type="before") {
@@ -58,5 +60,13 @@ $(function(){
         next=$(".page li").length-2;
         run("before");
     })
+    // 修改
+    $(".button5").click(function(){
+        $(".alert1").css("display","block");
+    })
+    $(".delete").click(function(){
+        $(".alert1").css("display","none");
+    })
+    // 删除
 
 })
