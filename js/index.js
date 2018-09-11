@@ -64,7 +64,7 @@ $(function () {
     //再次登录
     $(".right2 .login").click(function () {
         if (arr['name']==$(".name").innerText){
-            location.assign("public.html");
+            location.assign(LearningMaterials.html");
         }else{
             $(".right2 .no").css("display","block");
             $(".right2 .yes").css("display","block");
