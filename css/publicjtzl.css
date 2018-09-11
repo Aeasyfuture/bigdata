@@ -1,4 +1,4 @@
-@import url(base.css);
+﻿@import url(base.css);
 body,html{
     width: 100%;
     height: auto;
@@ -145,7 +145,7 @@ section .liuliang{
     /*margin-left:16px;*/
 }
 section .liuliang .liul{
-    width: 32.3%;
+    width: 28.66%;
     height: 90px;
     margin-top: 11px;
     margin-left: 16px;
@@ -187,7 +187,7 @@ section .liuliang .liul:nth-child(5){
 }
 /*实验环境*/
 section .shiyanhuanjing{
-    width: 56.5%;
+    width: 50.8%;
     height: 240px;
     margin-left: 16px;
     background:#fff;
