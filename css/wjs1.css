@@ -1,0 +1,135 @@
+@import url(base.css);
+body,html{
+    width: 100%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 58px;
+    background: #4381e6;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+}
+header .logo{
+    width: 35px;
+    height: 36px;
+    position: fixed;
+    top: 16px;
+    left: 42px;
+}
+header .logo img{
+    width: 35px;
+    height: 36px;
+}
+header .title{
+    font-size: 18px;
+    font-family: FZZYJW;
+    color: #fff;
+    position: fixed;
+    top: 17px;
+    left: 88px;
+    font-weight: bold;
+}
+header .portrait{
+    width: 28px;
+    height: 28px;
+    position: fixed;
+    top: 14px;
+    right: 114px;
+}
+header .portrait img{
+    width: 28px;
+    height: 28px;
+}
+header .use{
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bold;
+    color: rgba(255,255,255,0.5);
+    position: fixed;
+    top: 18px;
+    right: 36px;
+}
+.icon-arrow{
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    position: fixed;
+    top: 22px;
+    right: 12px;
+}
+nav{
+    width: 180px;
+    height: 100%;
+    box-shadow: 4px 0 15px rgba(218,218,218,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+nav ul{
+    width: 100%;
+    margin-top: 58px;
+}
+nav ul li{
+    width: 100%;
+    height: 41px;
+    border-bottom: 1px solid #f4f4f4;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: "苹方";
+    font-weight: bold;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+nav ul .click{
+    color: #4381e6;
+    background: #ecf2fc;
+    border-right: 2px solid #4381e6;
+}
+section{
+    width: calc(100% - 180px);
+    height: 660px;
+    background: #f1f4f9;
+    position: fixed;
+    top:0;
+    left:180px;
+    padding-top: 58px;
+    box-sizing: border-box;
+}
+.orderUp{
+    width: 98%;
+    height: 278px;
+    margin: 14px auto;
+}
+.left{
+    width: 49.5%;
+    height: 100%;
+    float: left;
+    border-radius: 5px;
+    background: #fff;
+    padding: 24px 30px;
+    box-sizing: border-box;
+    float: left;
+}
+.left1{
+    margin-right: 0;
+    float: right;
+}
+.line{
+    width: 2px;
+    height: 11px;
+    background-image: -webkit-linear-gradient(top,#6787ff,#33bffb);
+    margin-top: 4px;
+    float: left;
+    margin-right: 10px;
+}
+.orderDown{
+    width: 98%;
+    height: 340px;
+    border-radius: 5px;
+    background: #fff;
+    margin: 0 auto;
+}
