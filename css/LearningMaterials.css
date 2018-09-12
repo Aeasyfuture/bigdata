@@ -119,9 +119,11 @@ section .title .tag{
     background-image: -webkit-linear-gradient(top,#6787ff,#33bffb);
 }
 section .search{
-    width: 1097px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 29px;
+    box-sizing: border-box;
     height: 29px;
-    margin-left: 30px;
 }
 section .search span{
     font-size: 14px;
@@ -158,18 +160,38 @@ section .search #button2{
     background: #25cb77;
 }
 section .sheet {
-    width: 1098px;
-    margin-left: 30px;
-    margin-top: 20px;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 28px;
+    padding-top: 20px;
+    box-sizing: border-box;
     color: rgba(0,0,0,0.4);
+    text-align: center;
 }
+table{
+    border-bottom: 1px solid #f4f4f4;
+    border-right: 1px solid #f4f4f4;
+}
+table td{
+    border-top: 1px solid #f4f4f4;
+    border-left: 1px solid #f4f4f4;
+    white-space:nowrap;
+    overflow: hidden;
+}
+/*section .sheet td{*/
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+
+/*}*/
 section .button4{
     margin-left: 20px;
+    float: left;
     background: #f9f9f9;
     color: #b3b3b3;
 }
 section .button5{
     margin-left: 20px;
+    float: left;
     background: #4381e6;
 }
 section .footer{
@@ -208,6 +230,10 @@ section .footer ul li{
     font-size: 14px;
     color: #b0b0b0;
 }
+section .footer ul .change{
+    background: #4381e6;
+    color: #fff;
+}
 section .footer ul li:nth-child(4){
     border: none;
 }
@@ -228,12 +254,9 @@ section .footer ul li:nth-child(4){
     width: 394px;
     height: 430px;
     background: #fff;
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+    position: absolute;
+    left: 487px;
+    top: 183px;
     box-shadow: 0 0 15px 3000px rgba(0,0,0,0.8);
     z-index: 999;
     padding: 0;
@@ -241,27 +264,28 @@ section .footer ul li:nth-child(4){
 }
 .alertHeader{
     width: 100%;
-    height: 46px;
-    padding: 20px 0 6px 0;
+    height: 44px;
+    padding: 19px 0 5px 0;
+    box-sizing: border-box;
     border-bottom: 1px solid #f4f4f4;
 }
 .alertHeader .alertTitle{
     width: 65px;
-    height: 20px;
+    height: 22px;
     float: left;
     margin-left: 164px;
     text-align: center;
-    line-height: 20px;
+    line-height: 22px;
     font-size: 14px;
     color: rgba(0,0,0,0.8);
 }
 .alertHeader .delete{
     width: 47px;
-    height: 20px;
+    height: 22px;
     float: right;
     text-align: center;
-    line-height: 20px;
-    font-size: 14px;
+    line-height: 22px;
+    font-size: 22px;
     color: rgba(0,0,0,0.4);
 }
 main{
@@ -291,7 +315,7 @@ main .name .nameRight{
     flex-wrap: wrap;
     align-content: space-around;
 }
-main .name .nameRight input,select{
+main .name .nameRight input{
     width: 248px;
     height: 30px;
     float: right;
@@ -300,15 +324,25 @@ main .name .nameRight input,select{
     border-radius: 2px;
     color: rgba(0,0,0,0.2);
     outline: none;
-    appearance: none;
+}
+.alert select,.alert1 select{
+    width: 248px;
+    height: 30px;
+    float: right;
+    border: 1px solid #f4f4f4;
+    padding-left: 5px;
+    border-radius: 2px;
+    color: rgba(0,0,0,0.2);
+    outline: none;
     -webkit-appearance: none;
-    -moz-appearance: none;
+    padding-right: 14px;
+    background: url(../img/arrow.png) no-repeat scroll right center transparent;
 }
 /*select:after{*/
     /*content: "";*/
     /*width: 14px;*/
     /*height: 8px;*/
-    /*background: url(img/xiala.png) no-repeat center;*/
+    /*background: url(../img/arrow.png) no-repeat center;*/
     /*//通过定位将图标放在合适的位置*/
     /*position: absolute;*/
     /*right: 20px;*/
@@ -331,8 +365,8 @@ main .introduce{
     margin-bottom: 15px;
 }
 main .introduce textarea{
-    width: 248px;
-    height: 62px;
+    width: 243px;
+    height: 57px;
     border: 1px solid #f4f4f4;
     border-radius: 2px;
     resize: none;
@@ -361,6 +395,5 @@ main button{
     color: rgba(0,0,0,0.4);
     border-radius: 3px;
 }
-
 
 

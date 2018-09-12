@@ -1,4 +1,4 @@
-$(function () {
+﻿$(function () {
     //轮播图
     let now=next=0;
     let t=setInterval(move,2000);
@@ -64,7 +64,7 @@ $(function () {
     //再次登录
     $(".right2 .login").click(function () {
         if (arr['name']==$(".name").innerText){
-            location.assign("LearningMaterials.html");
+            location.assign("publicjtzl.html");
         }else{
             $(".right2 .no").css("display","block");
             $(".right2 .yes").css("display","block");
