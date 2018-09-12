@@ -48,10 +48,9 @@
             v.parentNode.parentNode.parentNode.removeChild(v.parentNode.parentNode);
         }
     });
-// let delG= $("button").parent("td").parent("tr");
-// console.log($("button"),delG);
 
 ///////资料管理 多选框点击样式
+//另一种写法
 /*let input=document.querySelectorAll("td .dui");
 let img=document.querySelectorAll(".dui img");
 input.forEach((v,i)=>{
@@ -62,10 +61,18 @@ input.forEach((v,i)=>{
 });*/
 
 console.log($(".dui"));
-$(".dui").click(function(){
-    $("img").css("display","none")
-    $(this).children("img").css("display","block");
+function Click(){
+    $(".dui").click(function(){
+        // $("img").css("display","none")
+        $(this).children("img").css("display","block");
+        $(this).click(function(){
+            $(this).children("img").css("display","none");
+            Click();
+        })
+
     });
+}
+Click();
 
 /*$("box").click(function(){
     $(this).children(".r").animate({
@@ -83,15 +90,15 @@ $(".dui").click(function(){
     })
 })*/
 //////////串起来
-    let li=document.querySelectorAll("nav ul li");
-    li.forEach(()=>{
-        li[5].onclick=function(){
-            open("wjs1.html");
-        };
-        li[6].onclick=function(){
-            open("wjs.html");
-        };
-    });
+//     let li=document.querySelectorAll("nav ul li");
+//     li.forEach(()=>{
+//         li[5].onclick=function(){
+//             open("wjs1.html");
+//         };
+//         li[6].onclick=function(){
+//             open("wjs.html");
+//         };
+//     });
 
 
 
