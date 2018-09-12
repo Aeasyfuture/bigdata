@@ -210,7 +210,7 @@ section .liuliang{
     /*margin-left:16px;*/
 }
 section .liuliang .liul{
-    width: 32%;
+    width: 31%;
     height: 90px;
     margin-top: 11px;
     margin-left: 16px;
@@ -255,7 +255,7 @@ section .liuliang .liul:nth-child(5){
 }
 /*实验环境*/
 section .shiyanhuanjing{
-    width: 58.5%;
+    width: 57.5%;
     height: 240px;
     margin-left: 16px;
     background:#fff;

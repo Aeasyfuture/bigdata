@@ -192,10 +192,10 @@ section .nrcongjiedian{
     height: 465px;   
 }
 section .nrcongjiedian .congjiedian{
-    width: 31.3%;
-    height: 211px;
+    width: 30.3%;
+    height:180px;
     background: #fff;
-    margin:16px;
+    margin:6px 16px;
     float: left;
     border-radius: 5px;
 }
@@ -206,7 +206,7 @@ section .nrcongjiedian .congjiedian .cjd{
     text-align: center;
     line-height: 14px;
     border-left: 2px solid #37bafc;
-    margin-top: 21px;
+    margin-top:15px;
     margin-left: 30px;
     color: #969696;
 }
