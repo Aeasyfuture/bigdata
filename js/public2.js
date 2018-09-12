@@ -3,7 +3,7 @@ let b511s=document.querySelectorAll(".b511");
 let b512s=document.querySelectorAll(".b512");
 let flag=true;
 
-console.log(b51s,b511s,b512s);
+
 for(let i=0;i<b51s.length;i++){
 	b51s[i].onclick=function(){
 		if(flag==true){
@@ -19,4 +19,16 @@ for(let i=0;i<b51s.length;i++){
 		}
 	}
 }
-
+let b31s=document.querySelectorAll(".b31");
+let s2s=document.querySelectorAll(".s2");
+let s1=document.querySelector(".s1");
+console.log(s2s,s1);
+for(let h=0;h<b31s.length;h++){
+	b31s[h].onclick=function(){
+		for(let j=0;j<b31s.length;j++){
+			b31s[j].className="b31";
+		}
+		b31s[h].className="b31 active";
+		s1.innerText=s2s[h].innerText;
+	}
+}
