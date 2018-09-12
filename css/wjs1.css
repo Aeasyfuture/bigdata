@@ -254,6 +254,29 @@ td input{
     right:0;
     margin:  auto;
 }
+.dui{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin:  auto;
+    /*background: red;*/
+}
+.dui img{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left:0;
+    right:0;
+    margin:  auto;
+    display: none;
+    z-index: 5;
+}
 td button{
     width: 82px;
     height: 30px;
