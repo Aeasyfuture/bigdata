@@ -172,6 +172,9 @@ section{
     float: right;
     font-weight: normal;
 }
+.searchRecord:hover{
+    cursor: pointer;
+}
 .table{
     width: 98%;
     height:auto;
@@ -292,6 +295,9 @@ tr:last-child{
     color: #8d8d8d;
     margin-right: 9px;
     float: left;
+}
+.upPage, .nextPage, .lastPage,.num,.esp:hover{
+    cursor: pointer;
 }
 footer{
     width: 100%;
