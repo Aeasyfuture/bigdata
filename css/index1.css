@@ -1,7 +1,7 @@
 @import url(base.css);
 body,html{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 header{
     width: 100%;
@@ -67,6 +67,7 @@ nav{
     top: 0;
     left: 0;
     float: left;
+    z-index: 50;
 }
 nav ul{
     width: 100%;
@@ -91,43 +92,45 @@ nav ul .click{
     border-right: 2px solid #4381e6;
 }
 .section1{
-    width: 1740px;
+    width: 100%;
     height: 100%;
-    margin-top: 58px;
-    float: left;
-    background-color: #F1F4F9;
-    position: fixed;
-    top: 0;
-    left: 180px;
+     background-color: #F1F4F9;
+    
+   
+   	position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     box-sizing: border-box;
-    padding-top: 15px;
-    padding-left: 15px;
+    padding-top: 73px;
+    padding-left: 195px;
     padding-right: 15px;
     
+    
 }
-.section1 .section2{
+.section1 .section3{
     width: 100%;
     height: 80px;
+   
     
     
-    position: absolute;
-    top: 800px;
-    left: 0px;
+    margin-top: 240px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #fff;
 }
-.section1 .section2 h5{
+.section1 .section3 h5{
     color: #BCBCBC;
     font-size: 10px;
 }
 .section1 .box1{
 	width: 100%;
+	
+	
+    
 	height: 530px;
 	background-color: #fff;
 	box-sizing: border-box;
@@ -416,4 +419,162 @@ nav ul .click{
 	border-radius: 5px;
 	overflow: hidden;
 
+}
+.section2{
+	 width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+   
+}
+.section2 .box8{
+	width: 590px;
+	height: 490px;
+	background-color: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.section2 .box8 .b81{
+	width: 100%;
+	height: 40px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #f4f4f4;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-right: 20px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.section2 .box8 .b81 h3{
+	font-size: 13px;
+	color: #585858;
+	display: block;
+	margin: 0;
+}
+.section2 .box8 .b82{
+	width: 100%;
+	height: 450px;
+	
+	box-sizing: border-box;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.section2 .box8 .b82 .b821{
+	width: 420px;
+	height: 15px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+.section2 .box8 .b82 .b821:nth-child(2){
+	margin-top: 30px;
+}
+.section2 .box8 .b82 .b821 h3{
+	margin: 0;
+	font-size: 13px;
+	color: #8d8d8d;
+	display: block;
+	width: 50%;
+}
+
+.section2 .box8 .b82 .b821 h3 span{
+	margin: 0;
+	font-size: 13px;
+	color: #B8B8B8;
+}
+.section2 .box8 .b82 .b822{
+	width: 500px;
+	height: 30px;
+	margin-top: 20px;
+}
+.section2 .box8 .b82 .b822 h4{
+	margin: 0;
+	font-size: 13px;
+	color: #8d8d8d;
+	display: block;
+	display: flex;
+	justify-content: flex-start;
+	line-height: 44px;
+}
+.section2 .box8 .b82 .b822 h4 .sp1{
+	display: block;
+	margin-left: 15px;
+	width: 80px;
+	height: 30px;
+	box-sizing: border-box;
+	border: 1px solid #F4F4F4;
+	font-size: 13px;
+	color: #596CFC;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+}
+.section2 .box8 .b82 .b822 h4 .sp1:nth-child(2){
+	color: #2BACFE;
+}
+.section2 .box8 .b82 .b822 h4 .sp2{
+	display: block;
+	margin-left: 15px;
+	width: 110px;
+	height: 30px;
+	box-sizing: border-box;
+	border: 1px solid #F4F4F4;
+	font-size: 13px;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	color: #26DBB7;
+}
+.section2 .box8 .b82 .b822 h4 .sp2:nth-child(2){
+	color: #25CB77;
+}
+.section2 .box8 .b82 .b823{
+	width: 100%;
+	height: 30px;
+	display: flex;
+	margin-top: 20px;
+
+}
+.section2 .box8 .b82 .b823 p{
+	width: 110px;
+	height: 100%;
+	line-height: 30px;
+	font-size: 13px;
+	color: #8d8d8d;
+	line-height: 30px;
+}
+.section2 .box8 .b82 .b823 input{
+	width: 200px;
+	height: 100%;
+	border-radius: 5px;
+	outline: none;
+	box-sizing: border-box;
+	border: 1px solid #f4f4f4;
+}
+.section2 .box8 .b82 .b824{
+	width: auto;
+	height: auto;
+	margin-left: 130px;
+	margin-top: 15px;
+
+}
+.section2 .box8 .b82 .b824 .btn5{
+	width: 200px;
+	height: 30px;
+	outline: none;
+	border: 0;
+	border-radius: 10px;
+	font-size: 13px;
+	background-color: #4381E6;
+	color: #fff;
 }

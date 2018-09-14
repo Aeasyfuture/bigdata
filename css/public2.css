@@ -1,7 +1,7 @@
 @import url(base.css);
 body,html{
     width: 100%;
-    height: auto;
+    height: 100%;
     background-color: #F1F4F9;
 }
 header{
@@ -69,6 +69,7 @@ nav{
     left: 0;
     float: left;
     background-color: #fff;
+    z-index: 15;
 }
 nav ul{
     width: 100%;
@@ -93,24 +94,26 @@ nav ul .click{
     border-right: 2px solid #4381e6;
 }
 .section1{
-    width: 1740px;
-    height: auto;
-    margin-top: 58px;
-    float: left;
-    background-color: #F1F4F9;
-    position: fixed;
-    top: 0;
-    left: 180px;
+    width: 100%;
+    height: 100%;
+     background-color: #F1F4F9;
+    
+   
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    box-sizing: border-box;
+    padding-top: 73px;
+    padding-left: 195px;
+    padding-right: 15px;
     
 }
 .section1 .box1{
-    width: 1700px;
+     width: 100%;
     height: 140px;
-    margin-top: 20px;
+    
     border-radius: 10px;
     background-color: #fff;
     box-sizing: border-box;
@@ -118,13 +121,10 @@ nav ul .click{
     padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 
 }
 .section1 .box2{
-    width: 1700px;
+    width: 100%;
     height: auto;
     margin-top: 20px;
     border-radius: 10px;
@@ -355,16 +355,17 @@ nav ul .click{
     border-radius: 5px;
 }
 .section1 .section2{
-    width: 100%;
+     width: 100%;
     height: 80px;
-    background-color: #fff;
+   
     
-    position: absolute;
-    left: 0px;
-    top: 800px;
+    
+    margin-top: 240px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
 }
 .section1 .section2 h5{
     color: #BCBCBC;
