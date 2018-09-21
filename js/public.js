@@ -1,6 +1,10 @@
 $(function(){
     let div=$("<div>");
     let li=$("nav ul li");
+    li.css({
+        overflow: 'hidden',
+        position: 'relative'
+    });
     div.appendTo(li).css({
         position:'absolute',
         top:0,
@@ -14,6 +18,7 @@ $(function(){
         borderRadius:'50%',
         background:'rgba(100,100,100,0.4)'
     })
+
     li.click(function () {
         let index=$(this).index();
         $(this).removeClass("click");

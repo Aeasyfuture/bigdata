@@ -112,6 +112,7 @@ nav ul li{
     text-align: center;
     line-height: 40px;
     cursor: pointer;
+    overflow: hidden;
 }
 nav ul .click{
     color: #4381e6;
