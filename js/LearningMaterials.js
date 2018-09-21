@@ -139,4 +139,13 @@ $(function(){
     let alert2=$(".alert1")
     move(alert2);
 
+    $(".iBox").click(function () {
+        $(".aler").slideDown();
+        $(".iBox").css("transform","rotate(180deg)")
+        $(".zi2").click(function(){
+            $(".aler").slideUp();
+            $(".iBox").css("transform","rotate(0)")
+        })
+
+    })
 })

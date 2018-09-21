@@ -74,12 +74,31 @@ function Click(){
 }
 Click();
 
+/*$("box").click(function(){
+    $(this).children(".r").animate({
+        width:200,
+        height:200,
 
+    },500,function(){
+        $(this).css({
+            width:0,
+            height:0,
+        })
+        $(this).parent().css({
 
-
-
-
-
+        })
+    })
+})*/
+//////////串起来
+//     let li=document.querySelectorAll("nav ul li");
+//     li.forEach(()=>{
+//         li[5].onclick=function(){
+//             open("wjs1.html");
+//         };
+//         li[6].onclick=function(){
+//             open("wjs.html");
+//         };
+//     });
 
 
 

@@ -6,6 +6,7 @@ lis.forEach(function (v,i) {
         });
         lis[i].className="click";
     }
+
 });
 
 

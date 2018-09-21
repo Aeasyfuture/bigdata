@@ -1,4 +1,4 @@
-$(function () {
+$(function(){
     let div=$("<div>");
     let li=$("nav ul li");
     div.appendTo(li).css({
@@ -51,7 +51,15 @@ $(function () {
         location.assign("wjs.html");
     })
 
+    $(".iBox").click(function () {
+        $(".aler").slideDown();
+        $(".iBox").css("transform","rotate(180deg)")
+        $(".zi2").click(function(){
+            $(".aler").slideUp();
+            $(".iBox").css("transform","rotate(0)")
+        })
 
+    })
 
 })
 

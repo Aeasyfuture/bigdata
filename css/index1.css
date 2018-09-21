@@ -1,95 +1,124 @@
 @import url(base.css);
 body,html{
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: auto;
+	position: relative;
 }
 header{
-    width: 100%;
-    height: 58px;
-    background: #4381e6;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 20;
+	width: 100%;
+	height: 58px;
+	background: #4381e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 20;
 }
 header .logo{
-    width: 35px;
-    height: 36px;
-    position: fixed;
-    top: 16px;
-    left: 42px;
+	width: 35px;
+	height: 36px;
+	position: fixed;
+	top: 16px;
+	left: 42px;
 }
 header .logo img{
-    width: 35px;
-    height: 36px;
+	width: 35px;
+	height: 36px;
 }
 header .title{
-    font-size: 18px;
-    font-family: FZZYJW;
-    color: #fff;
-    position: fixed;
-    top: 17px;
-    left: 88px;
-    font-weight: bold;
+	font-size: 18px;
+	font-family: FZZYJW;
+	color: #fff;
+	position: fixed;
+	top: 17px;
+	left: 88px;
+	font-weight: bold;
 }
 header .portrait{
-    width: 28px;
-    height: 28px;
-    position: fixed;
-    top: 14px;
-    right: 114px;
+	width: 28px;
+	height: 28px;
+	border-radius: 50%;
+	position: fixed;
+	top: 14px;
+	right: 114px;
+	background: url("../img/manager.jpg") no-repeat center;
+	background-size: contain;
 }
-header .portrait img{
-    width: 28px;
-    height: 28px;
-}
+/*header .portrait img{*/
+/*width: 28px;*/
+/*height: 28px;*/
+/*}*/
 header .use{
-    font-size: 14px;
-    font-family: "苹方";
-    font-weight: bold;
-    color: rgba(255,255,255,0.5);
-    position: fixed;
-    top: 18px;
-    right: 36px;
+	font-size: 14px;
+	font-family: "苹方";
+	font-weight: bold;
+	color: rgba(255,255,255,0.5);
+	position: fixed;
+	top: 18px;
+	right: 36px;
 }
-.icon-arrow{
-    color: rgba(255,255,255,0.5);
-    font-size: 10px;
-    position: fixed;
-    top: 22px;
-    right: 12px;
+.iBox{
+	width: 16px;
+	height: 16px;
+	color: rgba(255,255,255,0.5);
+	font-size: 10px;
+	position: fixed;
+	top: 22px;
+	right: 12px;
+	text-align: center;
+	line-height: 16px;
+}
+header .aler{
+	width: 127px;
+	height: 64px;
+	background: white;
+	box-shadow: 0 0 4px 1px rgba(215,215,215,0.46);
+	position: absolute;
+	top: 54px;
+	right: 4px;
+	border-radius: 4px;
+	display: none;
+}
+header .aler .zi,header .aler .zi2{
+	width: 127px;
+	height:32px;
+	font-size: 14px;
+	font-family: "苹方";
+	color: rgba(0,0,0,0.4);
+	line-height: 30px;
+	text-align: center;
+	font-style: normal;
 }
 nav{
-    width: 180px;
-    height: 100%;
-    box-shadow: 4px 0 15px rgba(218,218,218,0.6);
-    position: fixed;
-    top: 0;
-    left: 0;
-    float: left;
-    z-index: 50;
+	width: 180px;
+	height: 100%;
+	background: #ffffff;
+	box-shadow: 4px 0 15px rgba(218,218,218,0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
 }
 nav ul{
-    width: 100%;
-    margin-top: 58px;
+	width: 100%;
+	margin-top: 58px;
 }
 nav ul li{
-    width: 100%;
-    height: 41px;
-    border-bottom: 1px solid #f4f4f4;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-family: "苹方";
-    font-weight: bold;
-    color: rgba(0,0,0,0.6);
-    text-align: center;
-    line-height: 40px;
-    cursor: pointer;
+	width: 100%;
+	height: 41px;
+	border-bottom: 1px solid #f4f4f4;
+	box-sizing: border-box;
+	font-size: 14px;
+	font-family: "苹方";
+	font-weight: bold;
+	color: rgba(0,0,0,0.6);
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
 }
 nav ul .click{
-    color: #4381e6;
-    background: #ecf2fc;
-    border-right: 2px solid #4381e6;
+	color: #4381e6;
+	background: #ecf2fc;
+	border-right: 2px solid #4381e6;
 }
 .section1{
     width: 100%;
@@ -106,8 +135,7 @@ nav ul .click{
     padding-top: 73px;
     padding-left: 195px;
     padding-right: 15px;
-    
-    
+
 }
 .section1 .section3{
     width: 100%;
