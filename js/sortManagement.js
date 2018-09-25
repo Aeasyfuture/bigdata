@@ -216,15 +216,6 @@ $(function(){
         }
     })
 
-    $(".iBox").click(function () {
-        $(".aler").slideDown();
-        $(".iBox").css("transform","rotate(180deg)")
-        $(".zi2").click(function(){
-            $(".aler").slideUp();
-            $(".iBox").css("transform","rotate(0)")
-        })
-
-    })
 
 
 })

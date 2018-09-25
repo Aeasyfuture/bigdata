@@ -197,7 +197,8 @@ input::-webkit-input-placeholder {
     color: #4381E6;
     font-weight: bold;
     line-height: 30px;
-    letter-spacing: 3px;
+    -webkit-letter-spacing: 3px;
+    -moz-letter-spacing: 3px;
 }
 .no{
     width: 9px;
@@ -236,6 +237,7 @@ input::-webkit-input-placeholder {
     height: 32px;
     margin: 41px auto 0;;
     background-image: -webkit-linear-gradient(left,#4283e6,#31c1fb);
+    background-image: -moz-linear-gradient(left,#4283e6,#31c1fb);
     box-shadow: 0 1px 15px 2px rgba(59,172,254,0.4) ;
     border-radius: 4px;
     color: #fff;
@@ -259,6 +261,7 @@ input::-webkit-input-placeholder {
     height: 32px;
     margin: 32px auto 0;;
     background-image: -webkit-linear-gradient(left,#4283e6,#31c1fb);
+    background-image: -moz-linear-gradient(left,#4283e6,#31c1fb);
     box-shadow: 0 1px 15px 2px rgba(59,172,254,0.4) ;
     border-radius: 4px;
     color: #fff;
@@ -329,6 +332,9 @@ input::-webkit-input-placeholder {
     height: 18px;
     margin-top: 7px;
 }
+form{
+    z-index: 100;
+}
 .message2 input{
     width: 110px;
     float: left;
@@ -341,7 +347,8 @@ input::-webkit-input-placeholder {
     color: #4381E6;
     font-weight: bold;
     line-height: 30px;
-    letter-spacing: 3px;
+    -webkit-letter-spacing: 3px;
+    -moz-letter-spacing: 3px;
 }
 .code{
     width: 102px;
@@ -379,6 +386,7 @@ input::-webkit-input-placeholder {
     border-radius: 4px;
     box-shadow: 0 0 15px 3000px rgba(0,0,0,0.8);
     display: none;
+    z-index: 999;
 }
 .close{
     float: right;

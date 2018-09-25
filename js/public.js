@@ -56,6 +56,14 @@ $(function(){
         location.assign("wjs.html");
     })
 
+    $(".use").click(function () {
+        $(".aler").slideDown();
+        $(".iBox").css("transform","rotate(180deg)")
+        $(".zi2").click(function(){
+            $(".aler").slideUp();
+            $(".iBox").css("transform","rotate(0)")
+        })
+    })
     $(".iBox").click(function () {
         $(".aler").slideDown();
         $(".iBox").css("transform","rotate(180deg)")
@@ -65,6 +73,7 @@ $(function(){
         })
 
     })
+
 
 })
 

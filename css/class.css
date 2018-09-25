@@ -73,6 +73,7 @@
 }
 input[type=checkbox]{
     -webkit-appearance: none;
+    -moz-appearance: none;
     outline: none;
     width: 15px;
     height: 15px;
@@ -115,7 +116,6 @@ input[type=checkbox]:focus{
     border-radius: 2px;
     color: rgba(0,0,0,0.2);
     outline: none;
-    appearance: none;
     -webkit-appearance: none;
     -moz-appearance: none;
 }

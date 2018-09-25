@@ -155,6 +155,7 @@ section .title .tag{
     margin-top: auto;
     margin-bottom: auto;
     background-image: -webkit-linear-gradient(top,#6787ff,#33bffb);
+    background-image: -moz-linear-gradient(top,#6787ff,#33bffb);
 }
 section .search{
     width: 100%;
@@ -192,6 +193,7 @@ section button{
 section .search #button1{
     margin-left: 6px;
     background-image: -webkit-linear-gradient(left,#4381e6,#4381e6);
+    background-image: -moz-linear-gradient(left,#4381e6,#4381e6);
 }
 section .search #button2{
     float: right;
@@ -373,6 +375,7 @@ main .name .nameRight input{
     color: rgba(0,0,0,0.2);
     outline: none;
     -webkit-appearance: none;
+    -moz-appearance: none;
     padding-right: 14px;
     background: url(../img/arrow.png) no-repeat scroll right center transparent;
 }
